@@ -209,10 +209,27 @@ App runs at http://localhost:5173
   natural next step if needed.
 
 ## Screenshots
-Run the app locally following the steps above and capture:
-1. Login page
-2. Admin → Documents (upload + list)
-3. Admin → Tasks (create + assign)
-4. User → Search (semantic search results)
-5. User → My Tasks (marking complete)
-6. Admin → Analytics
+
+
+### 1. login Page
+![Register Page](screenshots/loginpage.png)
+
+### 2. Register Page
+![Login Page](screenshots/Register.up.png)
+
+### 3. Admin - Documents
+![Documents](screenshots/document.png)
+
+### 4. Admin - Tasks
+![Task Management](screenshots/task.png)
+
+### 5. User - Search
+![Semantic Search](screenshots/search.png)
+
+### 6. Admin - Analytics
+![Analytics](screenshots/analytics.png)
+
+### 7. User - My Tasks
+![My Tasks](screenshots/mytask.png)
+
+
