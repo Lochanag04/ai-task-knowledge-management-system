@@ -215,7 +215,7 @@ App runs at http://localhost:5173
 
 ### 1. Login Page
 
-![Login Page](screenshots/login.up.png)
+![Login Page](screenshots/sign.up.png)
 
 ### 2. Register Page
 
