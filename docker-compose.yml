@@ -1,0 +1,21 @@
+# Optional convenience file: spins up a local MySQL instance matching the
+# default .env values in backend/.env.example. The backend and frontend are
+# meant to be run directly (uvicorn / vite) per the README, not from this
+# compose file — this only saves you from installing MySQL locally.
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: ai_task_kb_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ai_task_kb
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
