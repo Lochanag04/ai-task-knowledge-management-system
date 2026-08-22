@@ -212,10 +212,10 @@ App runs at http://localhost:5173
 
 
 ### 1. login Page
-![Register Page](screenshots/loginpage.png)
+![login Page](screenshots/login.up.png)
 
 ### 2. Register Page
-![Login Page](screenshots/Register.up.png)
+![Register Page](screenshots/Registerpage.png)
 
 ### 3. Admin - Documents
 ![Documents](screenshots/document.png)
@@ -223,7 +223,7 @@ App runs at http://localhost:5173
 ### 4. Admin - Tasks
 ![Task Management](screenshots/task.png)
 
-### 5. User - Search
+### 5. Admin- Search
 ![Semantic Search](screenshots/search.png)
 
 ### 6. Admin - Analytics
